@@ -2,12 +2,20 @@
 <html lang="en">
     <head>
         <title>Google Images</title>
+        <link rel="icon" href="https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico">
         <link rel="stylesheet" href="imagestyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form action="https://images.google.com/">
-            <input type="text" name="q">
-            <input type="submit" value="Google Images">
-        </form>
+        <a href="index.html" aria-label="Google Search" id="search">Google Search</a>
+        <a href="advanced.html" aria-label="Google Advanced Search" id="adv">Google Advanced</a>
+        <h1 role="img" aria-label="Google Images">Google Images</h1>
+        <div>
+            <form action="https://images.google.com/search">
+                <input id="search-bar" type="text" name="q" placeholder="Images of..."><br>
+                <br> <input id="search-button" type="submit" value="Search Images">
+                <input type="hidden" name="tbm" value="isch">
+            </form>
+        </div>
     </body>
 </html>

@@ -25,15 +25,15 @@ body{
 h1 {
    font-size: 70px;
     font-family: Arial, sans-serif;
-    color: #313131;
+    color: #776f4d;
     margin-bottom: 22px;
-    width:fit-content
-    object-position:center bottom;
-    width: :auto;
+    width:fit-content;
+    object-position: center bottom;
+    width:auto;
 }
 .btlinks {
     background-color: whitesmoke;
-    color: black;
+    color: rgb(37, 37, 37);
     padding: 8px 16px;
     margin-right: 10px;
     margin-left: auto;
@@ -53,7 +53,7 @@ h1 {
     top: 10px;
     right: 10px; /* Adjust this value based on the width of the #adv link */
     font-size: 16px;
-    color: #000000;
+    color: #1b1b1b;
     text-decoration: none;
 }
 #adv {
@@ -62,7 +62,7 @@ h1 {
     top: 10px;
     left: 10px; 
     font-size: 16px;
-    color: #000000;
+    color: #1b1b1b;
     text-decoration: none;
 }
 #img:hover, #adv:hover {
