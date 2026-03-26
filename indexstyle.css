@@ -1,5 +1,35 @@
-body {
+body{
     background-color: white;
     font-family: Arial, sans-serif;
     text-align: center; 
+    margin-top: 18%;
+    margin-bottom: auto;
+}
+#search-bar {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+h1 {
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.btlinks {
+    background-color: rgb(216, 155, 211);
+    color: black;
+    padding: 8px 16px;
+    margin: 6px;
+    font-size: var(--Mhs7de);
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+a {
+    display: inline-block;
+    margin-right: 16px;
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
 }
