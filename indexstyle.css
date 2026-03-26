@@ -2,23 +2,24 @@ body{
     background-color: white;
     font-family: Arial, sans-serif;
     text-align: center; 
-    margin-top: 18%;
+    margin-top: 16%;
     margin-bottom: auto;
 }
 #search-bar {
     width: 60%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 2px solid #cccccca1;
     border-radius: 4px;
 }
 h1 {
-    font-size: 60px;
-    color: #333;
+    font-size: 80px;
+    font-family: Arial, sans-serif;
+    color: #313131;
     margin-bottom: 20px;
 }
 .btlinks {
-    background-color: rgb(216, 155, 211);
+    background-color: whitesmoke;
     color: black;
     padding: 8px 16px;
     margin: 6px;
@@ -26,10 +27,28 @@ h1 {
     border: 1px solid #000000;
     border-radius: 4px;
 }
-a {
-    display: inline-block;
-    margin-right: 16px;
-    font-size: 10px;
-    color: #333;
+#img {
+    display:inline-block;
+    position: fixed;
+    top: 10px;
+    right: 10px; /* Adjust this value based on the width of the #adv link */
+    font-size: 16px;
+    color: #000000;
     text-decoration: none;
+}
+#adv {
+    display:inline-block;
+    position: fixed;
+    top: 10px;
+    left: 10px; 
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+#img:hover, #adv:hover {
+    text-decoration: underline;
+}
+.btlinks:hover {
+    background-color: #f0f0f0ef;
+    border-color: #b39db1;
 }
