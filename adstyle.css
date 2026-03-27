@@ -30,7 +30,7 @@ body {
     margin-top: auto;
     margin-left: auto;
     text-align: left;
-    background-color: whitesmoke;
+    background-color: white;
 }
 .search-header {
     font-size: 24px;           
@@ -44,8 +44,7 @@ body {
     
 }
 div.options {
-    background-color: white;
-    width: 100%;
+    border-bottom: #c4c4c4 solid thin;
     padding-top: 20px;
     padding-bottom: 300px;
 }
@@ -55,6 +54,7 @@ div.options {
     align-items: left;
     padding-left: 15px;
     gap: 20px;
+    margin-top: 30px;
 }
 .option{
     display: flex;
@@ -63,7 +63,7 @@ div.options {
     width: 70%;
 }
 .option > label {  
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 6px;
     width: 200px;
 }
@@ -71,6 +71,7 @@ div.options {
     padding: 4px; 
     width: 100%;  
     height: 18px;
+    margin-left: 10px;
 }
 #search-button {
     display:inline-block;
