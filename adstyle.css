@@ -34,7 +34,7 @@ body {
 .search-header {
     font-size: x-large;           
     text-align: left;
-    padding-top: 35px;
+    padding-top: 30px;
     padding-left: 15px;
     padding-bottom: 15px;
     color: #ff6666;
@@ -56,7 +56,7 @@ div.options {
 .barras{
     display: flex;
     flex-direction: row;
-    align-items: left;
+    align-items: flex-start;
     width: 70%;
 }
 .barras > label {  
